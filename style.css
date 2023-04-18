@@ -25,11 +25,17 @@ justify-content: center;
     background-color: #ABC4AA;
 }
 
+#date{
+    transform: translate(45px);
+}
+
 #time{
     width: 600px;
 }
 
 #hr{
+    transform: translate(20px);
+    padding-right: 10px;
     grid-row: 2;
 }
 
@@ -39,5 +45,9 @@ justify-content: center;
 
 #sec{
     grid-row: 2;
+}
 
+#amPM{
+    padding-left: 10px;
+    grid-row: 2;
 }
